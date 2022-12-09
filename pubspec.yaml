@@ -30,6 +30,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   permission_handler: ^8.0.0
   flutter_compass: '^0.7.0'
+  flutter_advanced_drawer: ^1.0.0
 
 dev_dependencies:
   flutter_test:
