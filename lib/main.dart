@@ -220,8 +220,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: BackdropFilter(
                       filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
                       child: Container(
-                        height: _h * 0.35,
-                        width: _w * 0.62,
+                        height: _h * 0.30,
+                        width: _w * 0.55,
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
                               begin: Alignment.topLeft,
@@ -236,7 +236,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 Center(
                   child: Container(
-                    padding: EdgeInsets.all(30),
+                    padding: EdgeInsets.all(20),
                     child: Transform.rotate(
                         angle: direction * (math.pi / 180) * -1,
                         child: Image.asset("assets/comp.png")),
