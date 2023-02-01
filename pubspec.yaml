@@ -58,6 +58,8 @@ flutter:
     - assets/comp-logo.png
     - assets/blue5.jpg
     - assets/comp-bottom.png
+    - assets/pic.png
+    - assets/qrcode.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

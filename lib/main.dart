@@ -100,8 +100,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: Colors.black26,
                     shape: BoxShape.circle,
                   ),
-                  child: Image.network(
-                    'https://i.ibb.co/f833VSL/2199882.png',
+                  child: Image.asset(
+                    'assets/pic.png',
                   ),
                 ),
                 ListTile(
@@ -129,8 +129,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   width: 100,
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: NetworkImage(
-                              "https://i.ibb.co/LYSsfBq/qrcode.png"))),
+                          image: AssetImage("assets/qrcode.png"))),
                 ),
                 Column(
                   children: [
